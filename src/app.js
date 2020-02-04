@@ -23,7 +23,7 @@ function desenhaPaletaDeCores() {
     desenhaQuadrado(xAqua, yQuadrados, xTamanhoQuadrados, yTamanhoQuadrados, '#00FFFF');
     desenhaQuadrado(xHotPink, yQuadrados, xTamanhoQuadrados, yTamanhoQuadrados, '#FF69B4');
     desenhaQuadrado(xDarkBlue, yQuadrados, xTamanhoQuadrados, yTamanhoQuadrados, '#00008B');
-    desenhaQuadrado(xLime, yQuadrados, xTamanhoQuadrados, yTamanhoQuadrados, '#00FF00');
+    desenhaQuadrado(xLime, yQuadrados, xTamanhoQuadrados, yTamanhoQuadrados, 'lightgray');
 }
 
 function lidaComMovimentoDoMouse(evento) {
@@ -134,7 +134,7 @@ function trocaDeCor(evento){
                     && y > yQuadrados 
                         && y < yTamanhoQuadrados){
 
-        corAtual = "#00FF00";
+        corAtual = "lightgray";
     }
     
 }
